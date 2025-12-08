@@ -1,6 +1,260 @@
 <!DOCTYPE html>
-<html lang=en>
-  <p>
-    New website!
-  </p>
-</html>
+<!--
+I'm new to HTML, so I'm just trying some random stuff out
+-->
+<html lang="en">
+<title>HTML/CSS Test Page</title>
+<header>
+<h1 id="meh"></h1>
+<style>
+    #Sub{
+        float:right;
+    }
+  #subtitle {
+        font-size:2em;
+        padding:1rem;
+        border:15px,groove,lightgreen;
+        margin: 1rem;
+    }
+    
+    #blahblah{
+            text-decoration:none;
+        color:white;    
+    }
+    
+    input:focus{
+        color:green;
+        
+    }
+    button {
+  font-size: 20px;       
+  padding: 15px 30px;    
+  border-radius: 8px;
+  background:blue;
+  color:white;
+  border-color:blue;
+}
+
+    
+    button:hover{
+        box-shadow:10px 10px 10px grey;
+        transform:scale(1.3);
+    }
+    .offset{
+        position:sticky;
+        left:300px;
+        }
+#meh{
+    font-size:100px;
+    text-indent:70px;
+    }
+    
+        #newcolor{
+        font-size: 4em;
+        font-family: cambria;
+        font-weight: 900; 
+        font-style: italic;
+        text-decoration:underline;
+        text-align: center;
+        text-indent: 30px;
+        color: red;
+        background-color:Yellow;
+        border-color: red;
+        border-style: dotted;
+        border-width: 10px;
+    }
+        header{
+        position:fixed;
+        top:0;
+        width:98%;
+        height:4rem;
+        text-align:center;
+        background-color:rgb(147,196,125);
+    }
+    div{
+        margin-top:4rem;
+    }
+    img{
+        position:sticky;
+        right:0;
+        top:0;
+    }
+</style>
+</headeR>
+     <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/aqualine-ultimate.png">
+<section id="1"></section>
+        <a href="#section1">this scrolls down to "this scrolls up to..."</a>
+        <br>
+    <head>Head</head>
+    <meta charset= "utf-8">
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+    <p>Paragraph</p>
+    <body>Body</body>
+    <em>emphasis</em>
+        <br>
+    <i>italics</i>
+        <br>
+    <strong>strong</strong>
+        <br>
+    <b id="newlink">bold</b>
+    <blockquote>Blockquote</blockquote>
+    <br>
+            <a href="https://www.khanacademy.org/computer-programming/test/5061399192125440">link</a> 
+
+        <section id="section1">this scrolls up to...</section>
+        
+        
+        
+        <ul>
+            <li>ul</li>
+            <li>ul</li>
+            <li>ul</li>
+        </ul>
+        
+        <ol>
+            <li>ol</li>
+            <li>ol</li>
+            <li>ol</li>
+        </ol>
+        <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/avatar-team.png' alt="team pic" class="offset">
+you can do pictures??thats new
+<body>
+<br>
+        <img src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/creatures/OhNoes-Happy.png' alt="oh noes buddy">
+        <br>
+        <br>
+        Oh noes the error buddy! for once  looking happy
+        <hr>
+    <nav>
+        <a href="#1">this goes to the top</a>
+        <a href="#2">this goes nowhere</a>
+    </nav>
+    <main>
+        <article>
+            <section>
+               <p>Random</p>
+            </section>
+            
+            <section>
+
+                <h2>Another title</h2>
+                <p>More tests</p>
+            </section>
+        </article>
+        <aside>
+            Whats here?
+        </aside>
+    </main>
+    <footer>footer</footer>
+    <div id="newcolor">Random</div>
+    <hr>
+    <p>Notice <span style="font-variant: small-caps"> inline elements</span> i changed the font!!!!</p>
+        how'd i know all the available fonts, though..
+
+
+</body>
+
+<h4 id="subtitle">Test</h4>
+<body> 
+<button><a id="blahblah" href="#1">Click me!</a></button>
+<input type="text" placeholder="Type in me">
+</body>
+
+<h3 id="Sub">Stuff</h3>
+  <header>
+    <h2>Stuck element that pulls all other images along with it</h2>
+</header>
+
+<div class="teacher">
+    <div class="student student1">1</div>
+    <div class="student student2">2</div>
+    <div class="student student3">3</div>
+    <div class="student student4">4</div>
+    <div class="student student5">5</div>
+</div>
+<Style>
+    .teacher{
+    }
+    .student{
+    margin:0;
+    }
+    .student1{
+    }
+</Style>
+<div id="idk">
+    Centered Text
+</div>
+<style>
+    #idk{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:25vh;
+        border:5px double black;
+        font-family:"Georgia",serif;
+        font-size:2rem;
+    }
+    
+    .container{
+        display:grid;
+        grid-template-columns:repeat(5,100px);
+        grid-template-rows:repeat(3,150px);
+        column-gap:10px;
+        row-gap:15px;
+    }
+    .item{
+        border:1px solid black;
+    }
+    .item1{
+        grid-column-start:1;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:1;
+    }
+        .item2{
+        grid-column-start:3;
+        grid-column-end:span 3;
+        grid-row-start:1;
+        grid-row-end:1;
+    }
+        .item3{
+        grid-column-start:1;
+        grid-column-end:1;
+        grid-row-start:2;
+        grid-row-end:end;
+    }
+        .item4{
+        grid-column-start:2;
+        grid-column-end:4;
+        grid-row-start:2;
+        grid-row-end:end;
+    }
+        .item5{
+        grid-column-start:4;
+        grid-column-end:span 2;
+        grid-row-start:2;
+        grid-row-end:2;
+    }
+        .item6{
+        grid-column-start:4;
+        grid-column-end:span 2;
+        grid-row-start:3;
+        grid-row-end: 3;
+    }
+</style>
+
+<div class="container">
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+</div>
+</html>    
+
